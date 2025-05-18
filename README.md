@@ -46,16 +46,16 @@ pip install numpy pandas matplotlib seaborn
   - `If missing, download the MovieLens 100k dataset from GroupLens.`
   - `Extract u.data and u.item (rename u.item to Movie_Id_Titles with columns item_id and title).`
 
-4/ **Project Structure**:
+4. **Project Structure**:
 ``` bash
-recommender-systems/
-├── movie_recommender.py
-├── u.data
-├── Movie_Id_Titles
-├── num_ratings_hist.png
-├── avg_ratings_hist.png
-├── joint_plot.png
-├── README.md
+  recommender-systems/
+  ├── movie_recommender.py
+  ├── u.data
+  ├── Movie_Id_Titles
+  ├── num_ratings_hist.png
+  ├── avg_ratings_hist.png
+  ├── joint_plot.png
+  ├── README.md
 ```
 ## Running the Code 
 Open movie_recommender.py in PyCharm.
